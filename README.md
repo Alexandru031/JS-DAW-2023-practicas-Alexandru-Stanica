@@ -1,5 +1,4 @@
 # JS-DAW-2023-practicas-Alexandru-Stanica
-Practicas de Clase de 2º DAW
 ![head.png](https://cdn.pixabay.com/photo/2016/05/22/19/07/background-1409025_960_720.png)
 
 # Bienvenido 👋
