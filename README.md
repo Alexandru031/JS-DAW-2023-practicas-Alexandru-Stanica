@@ -33,11 +33,15 @@ Según mis habilidades, soy una persona trabajador, responsable y también tengo
    <img alt="HTML5" src="https://img.shields.io/badge/-HTML5-black?logo=html5&amp;style=for-the-badge">
    <img alt="CSS3" src="https://img.shields.io/badge/-CSS3-black?logo=css3&amp;style=for-the-badge">
    <img alt="JavaScript" src="https://img.shields.io/badge/-JavaScript-black?logo=javascript&amp;style=for-the-badge">
+   <img alt="TypeScript" src="https://img.shields.io/badge/-TypeScritp-black?logo=typescript&amp;style=for-the-badge">
    <img alt="Boostrap" src="https://img.shields.io/badge/-Boostrap-black?logo=bootstrap&amp;style=for-the-badge">
    <img alt="Markdown" src="https://img.shields.io/badge/-Markdown-black?logo=markdown&amp;style=for-the-badge">
    <img alt="PHP" src="https://img.shields.io/badge/-PHP-black?logo=php&amp;style=for-the-badge">
+   <img alt="Angular" src="https://img.shields.io/badge/-Angular-black?logo=angular&amp;style=for-the-badge">
+   <img alt="Laravel" src="https://img.shields.io/badge/-Laravel-black?logo=laravel&amp;style=for-the-badge">
 - 🛢 &nbsp;
    <img alt="OracleSQL" src="https://img.shields.io/badge/-OracleSQL-black?logo=oracle&amp;style=for-the-badge">
+   <img alt="MySQL" src="https://img.shields.io/badge/-MySQL-black?logo=mysql&amp;style=for-the-badge">
 - ⚙️ &nbsp;
    <img alt="Git" src="https://img.shields.io/badge/-Git-black?logo=git&amp;style=for-the-badge">
    <img alt="GitHub" src="https://img.shields.io/badge/-GitHub-black?logo=github&amp;style=for-the-badge">
@@ -47,7 +51,6 @@ Según mis habilidades, soy una persona trabajador, responsable y también tengo
    <img alt="Visual Studio" src="https://img.shields.io/badge/-VisualStudio-black?logo=visualstudio&amp;style=for-the-badge">
    <img alt="Atom" src="https://img.shields.io/badge/-Atom-black?logo=atom&amp;style=for-the-badge">
    <img alt="NetBeans" src="https://img.shields.io/badge/-NetBeans-black?logo=apachenetbeanside&amp;style=for-the-badge">
-   <img alt="OBS Studio" src="https://img.shields.io/badge/-OBS Studio-black?logo=obsstudio&amp;style=for-the-badge">
 - 🖥 &nbsp;
    <img alt="PhotoShop" src="https://img.shields.io/badge/-Photoshop-black?logo=adobephotoshop&amp;style=for-the-badge">
    <img alt="CapCut" src="https://img.shields.io/badge/-Capcut-black?logo=capcut&amp;style=for-the-badge">
@@ -55,11 +58,13 @@ Según mis habilidades, soy una persona trabajador, responsable y también tengo
    <img alt="Canva" src="https://img.shields.io/badge/-Canva-black?logo=canva&amp;style=for-the-badge">
    <img alt="Microsoft Office" src="https://img.shields.io/badge/-Microsoft Office-black?logo=microsoftoffice&amp;style=for-the-badge">
    <img alt="Windows" src="https://img.shields.io/badge/-Windows-black?logo=windows&amp;style=for-the-badge">
+   <img alt="Debian" src="https://img.shields.io/badge/-Debian-black?logo=debian&amp;style=for-the-badge">
 - ☁️ &nbsp;
    <img alt="Google Drive" src="https://img.shields.io/badge/-Google Drive-black?logo=googledrive&amp;style=for-the-badge">
    <img alt="TeraBox" src="https://img.shields.io/badge/-TeraBox-black?logo=terabox&amp;style=for-the-badge">
+   <img alt="AWS" src="https://img.shields.io/badge/-AWS-black?logo=aws&amp;style=for-the-badge">
 
-Fuera del ambito de programación y usos de software también tengo otras habilidades:
+Fuera del ambito de programación y usos de software, también tengo otras habilidades:
 
 - Montaje y mantenimiento de los equipos informaticos
 
@@ -96,7 +101,6 @@ Si quieres contactarme aquí os dejó mis redes sociales por si os interesa segu
    <a href="https://www.instagram.com/el.estanusky/"><img alt="Instagram" src="https://img.shields.io/badge/-Instagram-pink?logo=instagram&amp;style=for-the-badge">
    <a href="https://twitter.com/elestanusky"><img alt="Twitter" src="https://img.shields.io/badge/-Twitter-blue?logo=twitter&amp;style=for-the-badge">
    <a href="https://www.tiktok.com/@el.estanusky17"><img alt="Instagram" src="https://img.shields.io/badge/-TikTok-black?logo=tiktok&amp;style=for-the-badge">
-   <a href="https://www.youtube.com/channel/UCSNSrWuP3dlDq9VOfStxrEQ"><img alt="Youtube" src="https://img.shields.io/badge/-Youtube-red?logo=youtube&amp;style=for-the-badge">
       <a href="https://discord.gg/QGAYtEHfwA"><img alt="Discord" src="https://img.shields.io/badge/-Discord-white?logo=discord&amp;style=for-the-badge">
    <a href="mailto:alexandrustanica33@gmail.com" subject="alexandrustanica33@gmail.com"><img alt="Gmail" src="https://img.shields.io/badge/-alexandrustanica33@gmail.com-white?logo=gmail&amp;style=for-the-badge">
 </div>
@@ -104,7 +108,7 @@ Si quieres contactarme aquí os dejó mis redes sociales por si os interesa segu
       
 ### 6. Hobbies e Intereses :mega:
       
-Lo que más me apasiona es hacer deporte y hacer ejercicio fisico. También me dedico en mi tiempo libre en aprender otros lenguajes de programación para aumentar mi experiencia.
+Mis hobbies son hacer streaming mediante plataforma en *Twitch* y *Youtube*. Me dedico hacer tanto videos como directos de videojuegos. A parte me gusta hacer deporte como jugar a futbol o hacer ejercicio fisico. Durante mi carrera quiero seguir estudiando para ser un programador Front-End y cuando terminé seguiré estudiando más lenguajes de programación y posiblemente me planteo a estudiar Back-End.
 <br><br>
       
 ### 7. Editores de código o entornos de desarollo que dominas :computer:
