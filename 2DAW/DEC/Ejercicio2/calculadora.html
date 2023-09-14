@@ -4,10 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicio 2</title>
+    <script src="funciones.js"></script>
 </head>
 <body>
     <form action="" method="post">
-        <p>X</p><input type="text" value="">
+        <p>Introduce el Valor X: <input type="text" value="" id="valorX"></p>
+        <p>Introduce el Valor Y:  <input type="text" value="" id="valorY"></p>
+
+        <input type="button" value="Sumar" onclick="suma()" id="botonSuma">
+        <input type="button" value="Restar" onclick="restar()" id="botonRestar">
+        <input type="button" value="Mult" onclick="mult()" id="botonMult">
+        <input type="button" value="Div" onclick="div()" id="botonDiv">
+
+        <p>El Resultado es:</p><input type="text" value="" id="result">
     </form>
 </body>
 </html>
