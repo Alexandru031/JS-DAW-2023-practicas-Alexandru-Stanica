@@ -1,6 +1,6 @@
-function suma (x=5, y=2) {
-    let result = x + y 
-    return alert(`El resultado es ${result}`)
+function suma(x, y) {
+  var result = x + y;
+  alert(`La suma es ${result}`)
+  alert("Hola mundo")
+  return result;
 }
-
-suma();
