@@ -1,6 +1,4 @@
-# JS-DAW-2023-practicas-Alexandru-Stanica
 ![head.png](https://cdn.pixabay.com/photo/2016/05/22/19/07/background-1409025_960_720.png)
-
 # Bienvenido 👋
 
 <!--
@@ -19,8 +17,9 @@ Here are some ideas to get you started:
 -->
 <img align='right' src="https://raw.githubusercontent.com/iCharlesZ/FigureBed/master/img/octocat.gif" width="150">
 
-Antes de todo muchas gracias por venir y espero que os interesé mi perfil 😄. En los siguientes pasos os mostraré toda la información que os interesa sobre mí, mis experiencas, mis estudios, mis hobbies, etc... Vamos a comenzar con las siguientes:
-
+Bienvenido a mi perfil de GitHub, me llamo Alex 😊 y muchas gracias por visitar mi perfil. Espero que les interese 😄. 
+En los siguientes pasos les mostraré toda la información que les interesa sobre mí: mis experiencias, mis estudios, mis hobbies, etc. Vamos a comenzar con las siguientes:
+<br><br>
 
 ### 1. Habilidades y Tecnologias 👨‍💻
 
@@ -70,13 +69,19 @@ Fuera del ambito de programación y usos de software, también tengo otras habil
 
 - Configuración de Clientes y Servidores en Windows
 
-- Elegir componentes o dispositivos y atender sus necesidades
+- Conocimientos de Hardware y Software
 <br>
 
 ### 2. Proyectos Personales 📦
 
-Mis proyectos personales consisten en crear y diseñar diferentes paginas web porque estoy enfocado en el ambito de Front-End. También creó programas de aplicaciones con el uso de lenguaje Java para practicar en mis proyectos y poder desarrollar mis experiencias. Si quieres ver mis proyectos, podeis darle <a href="https://github.com/Alexandru031/ProyectosJ">aquí</a>.
-<br><br>
+Mis proyectos personales consisten en crear y diseñar diferentes paginas web porque estoy enfocado en el ambito de Front-End. También creó aplicaciones con el uso de los lenguajes de programación para practicar en mis proyectos y poder desarrollar mis experiencias. Si quieres ver mis proyectos, podeis darle en los siguientes repositorios:
+<br>
+<div align="center">
+  <a href="https://github.com/Alexandru031/MisProyectosJava"><img alt="Java" src="https://img.shields.io/badge/-Mis Proyectos Java-brown?logo=Project&amp;style=for-the-badge"></a>
+  <a href="https://github.com/Alexandru031/MisProyectosHTML_CSS"><img alt="HTMLyCSS" src="https://img.shields.io/badge/-Mis Proyectos HTML y CSS-cyan?logo=Project&amp;style=for-the-badge"></a>
+  <a href="https://github.com/Alexandru031/MisProyectosJavaScript"><img alt="JavaScript" src="https://img.shields.io/badge/-Mis Proyectos JavaScript-gold?logo=Project&amp;style=for-the-badge"></a>
+</div>
+<br>
 
 ### 3. Experiencia Laboral 💼
 
@@ -94,9 +99,8 @@ Actualmente estoy estudiando, por la tanto no tengo experiencia laboral. Pero hi
 
 ### 5. Datos de Contacto :telephone_receiver:
 
-Si quieres contactarme aquí os dejó mis redes sociales por si os interesa seguirme. Te recomiendo que uses a traves en gmail.
+Sígueme en mis redes sociales!!! Si quieres contactarme algo importante, te recomiendo que escribas en mi Gmail.
 
-<br>
 <div align=center>
    <a href="https://www.instagram.com/el.estanusky/"><img alt="Instagram" src="https://img.shields.io/badge/-Instagram-pink?logo=instagram&amp;style=for-the-badge">
    <a href="https://twitter.com/elestanusky"><img alt="Twitter" src="https://img.shields.io/badge/-Twitter-blue?logo=twitter&amp;style=for-the-badge">
@@ -107,13 +111,18 @@ Si quieres contactarme aquí os dejó mis redes sociales por si os interesa segu
 <br>
       
 ### 6. Hobbies e Intereses :mega:
-      
-Mis hobbies son hacer streaming mediante plataforma en *Twitch* y *Youtube*. Me dedico hacer tanto videos como directos de videojuegos. A parte me gusta hacer deporte como jugar a futbol o hacer ejercicio fisico. Durante mi carrera quiero seguir estudiando para ser un programador Front-End y cuando terminé seguiré estudiando más lenguajes de programación y posiblemente me planteo a estudiar Back-End.
+
+[💪] - Me encanta el deporte, como el fútbol, que es mi deporte favorito. También practico ejercicio físico para aumentar mi masa muscular. <br>
+[🎵] - También me encanta la música de géneros como Punk, Electro, House, Techno, Hip hop y Rap.<br>
+[💻] - En mi tiempo libre me dedico a aprender programación para mejorar mi experiencia y desarrollar nuevos proyectos.<br>
+[🐱] - Me encantan los animales, ya sean perros, gatos u otros tipos. Soy muy cariñoso con ellos ❤️.<br>
+[✈️] - Me encanta viajar a otros lugares y visitar distintos países para disfrutar de nuevas experiencias y vivir con ellos :)
 <br><br>
       
 ### 7. Editores de código o entornos de desarollo que dominas :computer:
 
-Ultimamente estoy empezando a dominar en Java porque actualmente estoy estudiando y aprendiendo ese lenguaje. Durante el uso de ese lenguaje utilizó el editor de codigó NetBeans donde me facilita a la hora de crear proyectos y programas. El que dominó más, es la creación de pagina web porque en él tengo muchas experiencia con los lenguajes de marcado. La desventaja que tengo en la creación web es el uso del lenguaje de JavaScript porque en él no trabajé demasiado.
+Últimamente estoy trabajando en proyectos de páginas web utilizando HTML, CSS y JavaScript. Para desarrollar proyectos con estas tecnologías, utilizo el editor de código Visual Studio Code, que me facilita la tarea de escribir código. También emplea extensiones para añadir complementos que aceleran el proceso, mejoran la limpieza del código y evitan errores. Esta es una herramienta ampliamente utilizada tanto por desarrolladores Front-End como Back-End, aunque para otros lenguajes de programación es preferible usar IDE's. En el caso de Java, utilizo Netbeans, que proporciona una serie de bibliotecas para aprovechar códigos reutilizables de otros proyectos.
+<br><br>
 
 ### 8. Estadísticas en GitHub :bar_chart:
 
