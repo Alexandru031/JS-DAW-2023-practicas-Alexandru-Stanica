@@ -1,20 +1,18 @@
 // Copia este código dentro de VSC
-let persona = {nombre: "NombreInventado", profesion: "Informático DAW", edad: 0}; /* Falta por añadir la propiedad edad */
+let persona = {nombre: "NombreInventado", profesion: "Informático DAW"}; 
 
 // Al copiar los valores de un objeto no estamos copiando dichos valores,
 // sino la la referencia al espacio de memoria.
 
-let antonioObj = {nombre: "Pepito", profesion: "Informatico ASIR", edad: 55} /* De esta forma se define las propiedades de los atributos */
+let antonioObj = {...persona}
 
-console.log(antonioObj.nombre);
+/*  /* De esta forma se define las propiedades de los atributos */
+
 console.log(persona.nombre);
+console.log(antonioObj.nombre);
 
-/* Falta por mostrar la edad */
-console.log(persona.edad)
-console.log(antonioObj.edad)
-
-console.log(antonioObj.profesion);
 console.log(persona.profesion);
+console.log(antonioObj.profesion);
 
 // ¿Qué está pasando?
 

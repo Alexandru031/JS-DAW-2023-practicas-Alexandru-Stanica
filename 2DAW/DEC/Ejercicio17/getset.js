@@ -28,4 +28,6 @@ class AlumnoDAW {
 
 let Usuario1 = new AlumnoDAW("Alexandru", "Stanica" , "hola@gmail.com", 20)
 
+Usuario1.setNombre("Toni")
+
 console.log(Usuario1.getDatos())
