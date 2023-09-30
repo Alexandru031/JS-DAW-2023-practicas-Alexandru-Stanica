@@ -6,30 +6,38 @@ La empresa 2DAWCheste necesita implementar un control de excepciones para compro
     El control de excepciones será muy importante para que cuando haya un commit erróneo la producción no se detenga, ya que puede afectar negativamente a la economía de la empresa.
     A disfrutar!
 */
-let contTotal = 1
-let contCorrectos = 0
-let contErrones = 0
+let contTotal = 1;
+let contCorrectos = 0;
+let contErrones = 0;
 
 while (contTotal <= 10) {
-    let numRandom = Math.random() * (10 - 1) + 1
-    let porcentaje = (numRandom / 10) * 100
-    console.log(texto(porcentaje))
-    if (contTotal == 10) {
-        console.log(resultadoFinal())
-    }
-    contTotal++
+  let numRandom = Math.random() * (10 - 1) + 1;
+  let porcentaje = (numRandom / 10) * 100;
+  document.write(texto(porcentaje) + `<br>`);
+  if (contTotal == 10) {
+    document.write(resultadoFinal());
+  }
+  contTotal++;
 }
 
 function texto(porcentaje) {
-    if (porcentaje < 30) {
-        contErrones++
-        throw `Enviado commit ${contTotal}`
+  try {
+    if (porcentaje > 30) {
+      contCorrectos++;
+      return `Enviado commit ${contTotal}`
     } else {
-        contCorrectos++
-        return `Enviado commit ${contTotal}`
+      throw new `Enviado commit ${contTotal}`
     }
+  } catch (error) {
+    contErrones++
+    document.write(error.message)
+  }
 }
 
 function resultadoFinal() {
-    return `Total commits enviados: ${contTotal}\n` + `Commits correctos: ${contCorrectos}\n` + `Commits erroneos: ${contErrones}`
+  return (
+    `<br>Total commits enviados: ${contTotal}<br>` +
+    `Commits correctos: ${contCorrectos}<br>` +
+    `Commits erroneos: ${contErrones}`
+  );
 }
