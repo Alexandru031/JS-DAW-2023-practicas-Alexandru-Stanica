@@ -6,6 +6,7 @@ La empresa 2DAWCheste necesita implementar un control de excepciones para compro
     El control de excepciones será muy importante para que cuando haya un commit erróneo la producción no se detenga, ya que puede afectar negativamente a la economía de la empresa.
     A disfrutar!
 */
+
 let contTotal = 1;
 let contCorrectos = 0;
 let contErrones = 0;
@@ -13,24 +14,29 @@ let contErrones = 0;
 while (contTotal <= 10) {
   let numRandom = Math.random() * (10 - 1) + 1;
   let porcentaje = (numRandom / 10) * 100;
-  document.write(texto(porcentaje) + `<br>`);
+  document.write(textoCommits(porcentaje) + `<br>`);
   if (contTotal == 10) {
     document.write(resultadoFinal());
   }
   contTotal++;
 }
 
-function texto(porcentaje) {
+/* 
+RECORDATORIO: A la hora de hacer un try...catch en un funcion, si resultado devuelve un error de la excepción,
+el valor del bloque catch devuelve "undefined" porque está devolviendo un valor no definida
+Solución: Poner "return" en el valor de catch, en esté caso "return er"
+*/
+function textoCommits(porcentaje) {
   try {
     if (porcentaje > 30) {
       contCorrectos++;
       return `Enviado commit ${contTotal}`
     } else {
-      throw new `Enviado commit ${contTotal}`
+      throw `Enviado commit ${contTotal}`
     }
-  } catch (error) {
+  } catch (er) {
     contErrones++
-    document.write(error.message)
+    return er /* Devuelve el texto de "throw" */
   }
 }
 
