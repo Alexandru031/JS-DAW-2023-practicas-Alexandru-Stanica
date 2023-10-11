@@ -3,9 +3,10 @@ let esIncorrecto = true
 
 while (esIncorrecto) {
     let texto = prompt("¿Qué día naciste? YYYY/MM/DD")
-    const regex = /\d{4}\/\d{2}\/\d{2}\//
+    const regex = /\d{4}\/\d{2}\/\d{2}/
 
-    if (texto.isNan() || regex.test(texto)) {
+    /* Valida el formato de texto */
+    if (regex.test(texto)) { 
         alert(`Han transcurrido ${calcularDias(texto)} días, aproximadamente, desde que naciste`)
         esIncorrecto = false
     } else {
@@ -14,10 +15,17 @@ while (esIncorrecto) {
 }
 
 function calcularDias(texto) {
-    let fecha1 = moment(texto);
-    let fecha2 = moment('2016-08-01');
+    let fechaInicio = convertirFecha(texto).getTime(); /* Crea la fecha de nacimiento */
+    let fechaFin = new Date(Date.now()).getTime() /* Crea la fecha actual */
 
-console.log(fecha2.diff(fecha1, 'days'), ' dias de diferencia');
-    const fechaNow = Date.now()
-    return fechaNow.diff(texto, ``)
+    let diff = fechaFin - fechaInicio;
+    
+    let result = diff/(1000*60*60*24)
+    return result.toFixed(2) /* Muestra el resultado con 2 decimales despues de la coma */
+                 // (1000*60*60*24) --> milisegundos -> segundos -> minutos -> horas -> días
+}
+
+function convertirFecha(texto) {
+    let myDate = texto.split('/'); /* Crea un arreglo separado por "/" */
+    return new Date(myDate[0], myDate[1] - 1, myDate[2]);
 }
