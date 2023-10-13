@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gestion de eventos</title>
+    <script src="eventos.js"></script>
+    <style>
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 800px;
+        }
+
+      #contenedor {
+        background-color: white;
+        border: 2px solid black;
+        border-radius: 25px;
+        width: 25%;
+        height: 26%;
+      }
+
+      h1 {
+        background-color: aqua;
+        border-radius: 10px;
+        width: 100%;
+      }
+
+      form {
+        text-align: center;
+      }
+
+      p {
+        padding: 5px 0;
+      }
+
+      button {
+        width: 25%;
+        height: 25px;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div id="contenedor">
+          <h1 style="text-align: center">Formulario</h1>
+          <form>
+            <p>Email: <input type="email" name="emai" id="email" /></p>
+            <p>Password: <input type="password" name="password" id="password"/></p>
+            <button id="boton" onclick="validar()">Validar</button>
+          </form>
+      </div>
+    </div>
+  </body>
+</html>
