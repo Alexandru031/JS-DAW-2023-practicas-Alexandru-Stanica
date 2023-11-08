@@ -1,0 +1,51 @@
+I'm Alexandru
+I am Higher Technician in Development of Web Applications.
+I good at Front-End than include HTML, CSS, JavaScript and TypeScript during 4 years in CIPFP Cheste
+I also got the tittle as Technician in Microcomputing Systems and Network where I learned Configuration of IT equipment, Maintenance of IT equipment and HTML and CSS
+I good at problem solving and team working in a dynamic way. Therefore, I consider myself to be a creative person that...
+
+(La palabra "like" lo cambiamos a "good at")
+
+Advantages: 
+
+Weaknesses:
+
+Steps to speaking english
+
+Name
+Title
+	- Place
+	- Time
+Skills
+Soft
+
+
+Make a questions about your person
+
+Web: https://www.engvid.com/english-resource/100-common-job-interview-questions/
+(The first 5 questions)
+
+1. Tell me about yourself.
+I'm Higher Technician in Development of Web Applications that arrives studying in CIPFP Cheste during 4 years old. Since 2019, 
+I have been furthering my education as a Technician in Microcomputer Systems and Networks, acquiring basic computer skills, 
+including web application development with HTML and CSS, computer assembly and maintenance, and office automation applications. 
+Subsequently, I focused on web programming, developing skills in Oracle SQL, markup languages, and web interface design, becoming
+a proficient programmer.
+
+2. What are your strengths?
+My strengths are web page design, using the markup languages HTML and CSS. Additionally, another strong aspect is assembling and 
+maintaining computer systems.
+
+3. What are your weaknesses?
+My weak point is understanding code and language. I'm someone who has difficulty comprehending things and often
+need them to be repeated in order to understand. Additionally, I find it challenging to understand certain words or what people 
+are saying in English to fully grasp their message.
+
+4. What do you see as a major success in your life?
+My success would be to become a prominent Front-End developer and acquire the necessary skills to work in a major company. 
+Furthermore, due to my interest in computer science, I might explore other areas in the future, such as application development, 
+among others.
+
+5. Describe a major disappointment in your life.
+My greatest disappointment is having wasted time during my years of study, as I could have focused more on learning programming 
+languages and working on personal projects to enhance my logical skills.
