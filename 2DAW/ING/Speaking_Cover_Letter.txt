@@ -26,11 +26,11 @@ Web: https://www.engvid.com/english-resource/100-common-job-interview-questions/
 (The first 5 questions)
 
 1. Tell me about yourself.
-I'm Higher Technician in Development of Web Applications that arrives studying in CIPFP Cheste during 4 years old. Since 2019, 
-I have been furthering my education as a Technician in Microcomputer Systems and Networks, acquiring basic computer skills, 
-including web application development with HTML and CSS, computer assembly and maintenance, and office automation applications. 
-Subsequently, I focused on web programming, developing skills in Oracle SQL, markup languages, and web interface design, becoming
-a proficient programmer.
+I am a Higher Technician in Web Applications Development, and I studied at CIPFP Cheste for 4 years. Since 2019, I have continued
+my education as a Technician in Microcomputer Systems and Networks, acquiring basic computer skills, including web application 
+development with HTML and CSS, computer assembly and maintenance, and office automation applications, and many other things.
+Since then, I decided to continue in the web development branch, as I am a creative person who loves to create web templates. 
+Also, outside the IT world, I love to play sports and spend time with my friends.
 
 2. What are your strengths?
 My strengths are web page design, using the markup languages HTML and CSS. Additionally, another strong aspect is assembling and 
