@@ -49,3 +49,7 @@ among others.
 5. Describe a major disappointment in your life.
 My greatest disappointment is having wasted time during my years of study, as I could have focused more on learning programming 
 languages and working on personal projects to enhance my logical skills.
+
+Next questions
+
+7, 9, 13, 24, 29
