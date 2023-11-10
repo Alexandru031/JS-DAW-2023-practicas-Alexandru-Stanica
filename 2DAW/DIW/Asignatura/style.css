@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif; 
+}
+
+body {
+    margin: 0;
+    background-color: #bfffff;
+}
+
+nav {
+    background-color: #004d7a;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    color: white;
+    display: flex;
+    width: 100%;
+    height: 10vh;
+}
+
+nav > header {
+    display: flex;
+    align-items: center;
+    font-family: 'Dancing Script', cursive;
+    width: 100%;
+    text-align: center;
+}
+
+#content {
+    background-color: #bfffff;
+    display: flex;
+    text-align: center;
+    height: 90vh;
+    width: 100%;
+}
+
+h1 {
+    width: 100%;
+}
+
+#primer_mod {
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    border-radius: 10px;
+    box-shadow: 2px 5px 10px black;
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+#primer_mod > div {
+    border-radius: 10px;
+    background-image: url("../Asignatura/img/sistemas_info.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+    padding: auto 0px;
+    opacity: 75%;
+    width: 25%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#primer_mod > div > div {
+    color: white;
+    font-size: 18px;
+}
+
+#primer_mod > div:hover {
+    opacity: 100%;
+    transform: rotate(-3deg);
+    transform: scale();
+    transition: all 0.5s;
+    box-shadow: 2px 2px 5px black;
+}
+
+#segundo_mod {
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    border-radius: 10px;
+    box-shadow: 2px 5px 10px black;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+    justify-content: center;
+    width: 50%;
+}
+
+#segundo_mod > div {
+    border-radius: 10px;
+    background-image: url("../Asignatura/img/sistemas_info.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+    opacity: 75%;
+    width: 25%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#segundo_mod > div > div {
+    color: white;
+    font-size: 18px;
+}
+
+#segundo_mod > div:hover {
+    opacity: 100%;
+    transform: rotate(-3deg);
+    transform: scale();
+    transition: ease 0.5s;
+    box-shadow: 2px 2px 5px black;
+}
+
+@media (max-width: 1300px) {
+    #primer_mod {
+        flex-direction: column;
+    }
+
+    #primer_mod > div {
+        margin: 5px auto;
+        height: 75px;
+        width: 50%;
+    }
+
+    #primer_mod > div > div {
+        font-size: 13px;
+        padding: 10px;
+    }
+
+    #segundo_mod {
+        flex-direction: column;
+        
+    }
+
+    #segundo_mod > div {
+        margin: 5px auto;
+        height: 70px;
+        width: 50%;
+    }
+
+    #segundo_mod > div > div {
+        font-size: 13px;
+        padding: 10px;
+    }
+}
