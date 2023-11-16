@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Si no</title>
+    <style>
+        body{
+            background-color: red;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        div {
+            position: fixed;
+            left: 50%;
+            top: 50%;
+        }
+        p {
+            text-align: center;
+            font-size: 30px;
+            color: white;
+        }
+
+        button {
+            padding: 10px;
+            background-color: white;
+            border: 0;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p id="mensaje"></p>
+        <button type="button" id="boton" onclick="imagen()">Ramdom</button>
+    </div>
+    <script src="ajax.js"></script>
+</body>
+</html>

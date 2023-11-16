@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Ubuntu+Condensed&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MÓDULOS PROFESIONALES</title>
+  </head>
+  <body>
+    <div class="modulos">
+      <h1 class="text-center">MÓDULOS PROFESIONALES</h1>
+    </div>
+    <div class="accordion" id="accordionCursos">
+      <div class="card">
+        <div class="card-header custom-card-header" id="headingPrimerCurso">
+          <h2 class="mb-0">
+            <button
+              type="button"
+              data-toggle="collapse"
+              data-target="#collapsePrimerCurso"
+              aria-expanded="true"
+              aria-controls="collapsePrimerCurso"
+            >
+              Primer curso
+            </button>
+          </h2>
+        </div>
+
+        <div
+          id="collapsePrimerCurso"
+          class="collapse"
+          aria-labelledby="headingPrimerCurso"
+          data-parent="#accordionCursos"
+        >
+          <div class="card-body1">
+            <h3>Lenguajes de marcas y sistemas de gestión de información</h3>
+            <h3>Sistemas informáticos</h3>
+            <h3>Bases de datos</h3>
+            <h3>Programación</h3>
+            <h3>Entornos de desarrollo</h3>
+            <h3>Formación y orientación laboral</h3>
+            <h3>Inglés</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headingSegundoCurso">
+          <h2 class="mb-0">
+            <button
+              type="button"
+              data-toggle="collapse"
+              data-target="#collapseSegundoCurso"
+              aria-expanded="true"
+              aria-controls="collapseSegundoCurso"
+            >
+              Segundo curso
+            </button>
+          </h2>
+        </div>
+
+        <div
+          id="collapseSegundoCurso"
+          class="collapse"
+          aria-labelledby="headingSegundoCurso"
+          data-parent="#accordionCursos"
+        >
+          <div class="card-body2">
+            <h3>Desarrollo web en entorno cliente</h3>
+            <h3>Desarrollo web en entorno servidor</h3>
+            <h3>Despliegue de aplicaciones web</h3>
+            <h3>Diseño de interfaces web</h3>
+            <h3>Proyecto de Desarrollo de aplicaciones web</h3>
+            <h3>Empresa e iniciativa emprendedora</h3>
+            <h3>Inglés</h3>
+            <h3>Formación en Centros de Trabajo</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br /><br />
+    <div class="mapa">
+      <h4>¿Donde nos encontramos?</h4>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15446.941069383272!2d-0.6437393!3d39.474661049999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd60f9d68c32bb97%3A0xd782baa3d8855143!2sComplejo%20Educativo%20de%20Cheste!5e1!3m2!1ses!2ses!4v1699605982484!5m2!1ses!2ses"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </div>
+  </body>
+</html>
