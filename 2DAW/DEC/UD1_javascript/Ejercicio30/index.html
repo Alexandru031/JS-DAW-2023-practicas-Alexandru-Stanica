@@ -1,11 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Multimedia</title>
-</head>
-<body>
+  </head>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    #contenedor {
+        display: flex;
+        flex-wrap: wrap;
+      text-align: center;
+      border: 2px solid gray;
+      border-radius: 10px;
+      box-shadow: 1px 2px 5px black;
+      background-color: white;
+      width: 25vw;
+      height: 25vh;
+    }
+
+    #slider {
+      background-size: cover;
+      margin: 10px auto auto;
+      width: 100%;
+      height: 80%;
+    }
+
+    #controles {
+        margin-top: 10px;
+        width: 90%;
+    }
+
+    #duracion {
+        width: 10%;
+    }
+
+    #play, #bucle, #anterior, #siguiente {
+        width: 10%;
+        border-radius: 50px;
+    }
+  </style>
+  <body>
+    <div id="contenedor">
+      <div id="slider"></div>
+      <div id="duracion"></div>
+      <div id="controles">
+        <button type="button" id="play" onclick="play()"><img src="image/boton-de-play.png" id="imagen_play_pause" alt="pause/play" width="10px"></button>
+        <button type="button" id="bucle" onclick="loop()"><img src="image/boton-de-bucle.png" id="imagen_bucle" alt="bucle" width="10px"></button>
+        <button type="button" id="anterior" onclick="retroceder()"><img src="image/anterior.png" id="imagen_bucle" alt="anterior" width="10px"></button>
+        <button type="button" id="siguiente" onclick="continuar()"><img src="image/siguiente.png" alt="anterior" width="12px"></button>
+        <button type="button" onclick="adelantar_10()">+ 10s</button>
+      </div>
+    </div>
     <script src="multimedia.js"></script>
-</body>
+  </body>
 </html>
