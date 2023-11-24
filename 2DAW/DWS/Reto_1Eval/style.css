@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 99vw;
+    height: 90vh;
+}
+
+form {
+    width: 50vw;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+form > div:nth-of-type(1) {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+form > div:nth-of-type(2) {
+    text-align: center;
+}
+
+img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+button {
+    border-radius: 50px;
+    border: 3px solid gray;
+    font-size: 24px;
+    padding: 20px;
+}
+
+button:hover {
+    border: 3px solid black;
+    font-size: 24px;
+    padding: 20px;
+    transition: all 0.5s;
+}
+

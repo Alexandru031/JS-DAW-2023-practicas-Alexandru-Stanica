@@ -1,0 +1,40 @@
+.caja h2 {
+  color: black;
+  font-family: Arial;
+}
+.caja p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-decoration: underline;
+  font-size: 25px;
+}
+
+body {
+  background-color: aqua;
+}
+
+h1 {
+  color: #000000;
+}
+
+p {
+  color: #000000;
+}
+
+.caja {
+  background-color: green;
+  border: 4px solid black;
+  box-shadow: 0px 0px 2px black;
+  color: #000000;
+  /* El mixin de Caja Personalizada dentro de la clase caja*/
+}
+
+.caja_secundaria {
+  background-color: gray;
+  border: 4px solid black;
+  box-shadow: 0px 0px 2px black;
+  color: red;
+}
+
+.caja, .caja_secundaria {
+  width: 300px;
+}/*# sourceMappingURL=style.css.map */
