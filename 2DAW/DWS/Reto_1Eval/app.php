@@ -4,7 +4,7 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
         echo "Es ver";
         header("Location: ver.php");
         exit;
-    } else if ($_GET['accion'] == "añadir") {
+    } else if ($_GET['accion'] == "anadir") {
         header("Location: anadir.php");
         exit;
     } else if ($_GET['accion'] == "guardar"){

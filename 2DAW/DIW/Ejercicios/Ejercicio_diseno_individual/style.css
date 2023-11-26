@@ -52,9 +52,9 @@ h1 {
 
 #primer_mod > div {
     border-radius: 10px;
-    background-image: url("../Asignatura/img/sistemas_info.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    border: 1px solid black;
     margin: 10px;
     padding: auto 0px;
     opacity: 75%;
@@ -71,6 +71,7 @@ h1 {
 }
 
 #primer_mod > div:hover {
+    border: 3px solid black;
     opacity: 100%;
     transform: rotate(-3deg);
     transform: scale();
@@ -91,6 +92,7 @@ h1 {
 
 #segundo_mod > div {
     border-radius: 10px;
+    border: 1px solid black;
     background-image: url("../Asignatura/img/sistemas_info.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -109,11 +111,17 @@ h1 {
 }
 
 #segundo_mod > div:hover {
+    border: 3px solid black;
     opacity: 100%;
     transform: rotate(-3deg);
     transform: scale();
     transition: ease 0.5s;
     box-shadow: 2px 2px 5px black;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
 @media (max-width: 1300px) {

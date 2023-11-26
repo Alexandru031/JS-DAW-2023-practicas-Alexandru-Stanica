@@ -1,10 +1,22 @@
-<?php 
-$my_Archivo = fopen("borrar.php", "w");
+<?php
+$my_Archivo = fopen("hoteles.csv", "w") or die("El archivo no existe");
+$salida = array();
 
-while(($data = fgetcsv($my_Archivo,1000, ";")) == true) {
-    $data = "";
-    fputcsv($mi_Archivo, $data, $delimitador);
+foreach ($hoteles as $linea) {
+    $salida[] = $linea;
 }
-rewind($mi_Archivo);
-fclose($mi_Archivo);
+fclose($my_Archivo);
+
+echo '<!DOCTYPE html>
+      <html>
+      <head>
+        <title>Ver Hoteles</title>
+        <link rel="stylesheet"href="style.css">
+      </head>
+      <body>';
+echo "<form action='home.php' style='text-align:center;'>";
+echo "<h1 style='text-align:center; padding-top:50px;'>Se borró los hoteles correctamente</h1><br>";
+echo "<form action='home.php' style='text-align:center;'>
+<button type='submit' name='volver' style='padding:10px;border:2px solid black; border-radius:10px; font-size:16px;' >Volver a Home</button>
+    </form>";
 ?>
