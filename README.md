@@ -102,10 +102,7 @@ Actualmente estoy estudiando, por la tanto no tengo experiencia laboral. Pero hi
 Sígueme en mis redes sociales!!! Si quieres contactarme algo importante, te recomiendo que escribas en mi Gmail.
 
 <div align=center>
-   <a href="https://www.instagram.com/el.estanusky/"><img alt="Instagram" src="https://img.shields.io/badge/-Instagram-pink?logo=instagram&amp;style=for-the-badge">
    <a href="https://twitter.com/elestanusky"><img alt="Twitter" src="https://img.shields.io/badge/-Twitter-blue?logo=twitter&amp;style=for-the-badge">
-   <a href="https://www.tiktok.com/@el.estanusky17"><img alt="Instagram" src="https://img.shields.io/badge/-TikTok-black?logo=tiktok&amp;style=for-the-badge">
-      <a href="https://discord.gg/QGAYtEHfwA"><img alt="Discord" src="https://img.shields.io/badge/-Discord-white?logo=discord&amp;style=for-the-badge">
    <a href="mailto:alexandrustanica33@gmail.com" subject="alexandrustanica33@gmail.com"><img alt="Gmail" src="https://img.shields.io/badge/-alexandrustanica33@gmail.com-white?logo=gmail&amp;style=for-the-badge">
 </div>
 <br>
