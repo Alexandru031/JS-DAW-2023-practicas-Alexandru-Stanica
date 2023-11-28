@@ -1,0 +1,94 @@
+$color_bordes: white;
+$color_fondo_cuadro: #5f5f5f;
+$color_interno_cuadro: #292929;
+$fuente_texto_blanco: white;
+$px10: 10px;
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #808080;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    margin: 0;
+    padding: 50px;
+}
+
+.modulos {
+    border: 2px solid $color_bordes;
+    border-radius: 15px;
+    background-color: $color_fondo_cuadro;
+    color: $fuente_texto_blanco;
+    margin-bottom: 20px;
+}
+
+.card {
+    background-color: $color_fondo_cuadro;
+    border: 2px solid $color_bordes;
+    border-radius: 20px;
+    color: $fuente_texto_blanco;
+}
+
+button {
+    font-size: 25px;
+    border: 0;
+    background-color: transparent;
+    color: $fuente_texto_blanco;
+}
+
+button:hover {
+    color: #b5b5b5;
+    border: 0px;
+    transition: all 0.4s;
+}
+
+.card-body1 {
+    text-align: center;
+    margin:0 auto;
+}
+
+.card-body1 > h3 {
+    background-color: $color_interno_cuadro;
+    padding: $px10;
+    border-radius: $px10;
+}
+
+.card-body2 {
+    text-align: center;
+    margin:0 auto;
+}
+
+.card-body2 > h3 {
+    background-color: $color_interno_cuadro;
+    padding: $px10;
+    border-radius: $px10;
+}
+
+a {
+    text-decoration: none;
+    color: $fuente_texto_blanco;
+}
+
+a:hover {
+    text-decoration: none;
+    color: gray;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+.mapa {
+    margin: 0 auto;
+}
+
+iframe {
+    border-radius: 20px;
+}
+
+h4 {
+    margin-top: 50px;
+    color: $fuente_texto_blanco;
+}
