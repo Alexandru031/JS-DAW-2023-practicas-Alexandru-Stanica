@@ -31,7 +31,6 @@
         echo "</tr>";
     }
     echo "</table><br>";
-
 }
     echo "<button type='submit' name='volver' style='padding:10px;border:2px solid black; border-radius:10px; font-size:16px;' >Volver a Home</button>
     </form>";

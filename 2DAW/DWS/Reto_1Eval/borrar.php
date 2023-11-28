@@ -2,7 +2,7 @@
 $my_Archivo = fopen("hoteles.csv", "w") or die("El archivo no existe");
 $salida = array();
 
-foreach ($hoteles as $linea) {
+foreach ($salida as $linea) {
     $salida[] = $linea;
 }
 fclose($my_Archivo);
