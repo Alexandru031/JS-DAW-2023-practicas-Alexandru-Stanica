@@ -1,11 +1,29 @@
-fetch("https://pokeapi.co/api/v2/pokemon/")
+
+let saltar = 0;
+api()
+function next() {
+  saltar += 20;
+  api()
+}
+
+function atras() {
+  saltar -= 20
+  if (saltar < 0) {
+    saltar = 0
+  }
+  api();
+}
+
+function api() {
+  fetch(`https://pokeapi.co/api/v2/pokemon/?offset=${saltar}&limit=20`)
   .then(function (response) {
     // Transforma la respuesta. En este caso lo convierte a JSON
     return response.json();
   })
   .then(function (json) {
     tabla2(json);
-  });
+  }); 
+}
 
 /* Crear elementos de las etiquetas en DOM */
 function tabla2(json) {
