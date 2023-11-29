@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokedex</title>
+    <style>
+      #tabla {
+        border-collapse: collapse; /* Fusiona los bordes de las celdas */
+        border: 1px solid black; /* Establece un borde de 1px sólido negro alrededor de la tabla */
+      }
+
+      /* Estilo para las celdas */
+      #tabla td,
+      #tabla th {
+        border: 1px solid black; /* Establece un borde de 1px sólido negro a las celdas */
+        padding: 8px; /* Agrega un espacio de 8px dentro de cada celda */
+      }
+
+      tr:nth-child(2n + 2) {
+        background-color: gray;
+      }
+
+      tr:nth-child(2n + 1) {
+        background-color: gainsboro;
+      }
+    </style>
+  </head>
+  <body>
+    <button type="button" id="btn-atras" onclick="atras()">Atrás</button>
+    <button type="button" onclick="next()">Siguiente</button>
+    <table id="tabla"></table>
+    <h1>Pokedex</h1>
+    <script src="pokedex.js"></script>
+  </body>
+</html>
