@@ -1,0 +1,126 @@
+body {
+  background: rgb(0,255,141);
+  background: linear-gradient(90deg, rgba(0,255,141,1) 0%, rgba(0,232,255,1) 50%, rgba(0,164,255,1) 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 99vw;
+  height: 90vh;
+}
+
+form {
+  width: 50vw;
+  border-radius: 5px;
+  border: 3px solid gray;
+  box-shadow: 5px 5px 5px black;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+form > div:nth-of-type(1) {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+form > div:nth-of-type(2) {
+  text-align: center;
+}
+
+img {
+  border: 3px solid #3b3b3b;
+  border-radius: 10px;
+  width: 100%;
+}
+
+button {
+  border-radius: 50px;
+  border: 3px solid gray;
+  font-size: 24px;
+  padding: 20px;
+}
+
+button:hover {
+  border: 3px solid black;
+  font-size: 24px;
+  padding: 20px;
+  transition: all 0.5s;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="checkbox"] select {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+label {
+  width: 20%;
+  font-weight: 800;
+  display: inline-block;
+}
+
+input[type="submit"] {
+  width: 50%;
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+input[type="reset"] {
+  width: 50%;
+  background-color: #4c8baf;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="reset"]:hover {
+  background-color: #4546a0;
+}
+
+input[type="button"] {
+  width: 50%;
+  background-color: crimson;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+input[type="button"]:hover {
+  background-color: brown;
+}
+
+.panelButtons {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+table, tr, td, th {
+  border: 2px solid black;
+  padding: 10px;
+}
