@@ -1,10 +1,105 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  font-family: "Ubuntu", sans-serif;
+@charset "UTF-8";
+body {
+  background-color: #2e2e2e;
 }
 
-body {
-  background-color: #1f1f1f;
+.btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+}
+.btn:hover {
+  opacity: 0.8;
+  color: black;
+  font-size: 15px;
+}
+
+.btn:nth-child(2) {
+  background-color: red;
   color: white;
-}/*# sourceMappingURL=style.css.map */
+  width: calc(50% - 20px);
+  padding: 8px;
+  margin: 4px;
+}
+.btn:nth-child(2):hover {
+  opacity: 0.8;
+  color: black;
+  font-size: 15px;
+}
+
+.btn:nth-child(3) {
+  background-color: blue;
+  color: white;
+  width: calc(50% - 20px);
+  padding: 8px;
+  margin: 4px;
+}
+.btn:nth-child(3):hover {
+  opacity: 0.8;
+  color: black;
+  font-size: 15px;
+}
+
+.btn:nth-child(4) {
+  background-color: green;
+  color: white;
+  width: calc(50% - 20px);
+  padding: 8px;
+  margin: 4px;
+}
+.btn:nth-child(4):hover {
+  opacity: 0.8;
+  color: black;
+  font-size: 15px;
+}
+
+.btn:nth-child(5) {
+  background-color: yellow;
+  color: white;
+  width: calc(50% - 20px);
+  padding: 8px;
+  margin: 4px;
+}
+.btn:nth-child(5):hover {
+  opacity: 0.8;
+  color: black;
+  font-size: 15px;
+}
+
+.primario-1 {
+  background-color: #f39c12;
+}
+
+.secundario-1 {
+  background-color: #27ae60;
+}
+
+.terciario-1 {
+  background-color: #e74c3c;
+}
+
+h1 {
+  font-weight: bold;
+  padding: 10px;
+  font-size: 50px;
+  color: white;
+}
+
+/* Para que la funcion del mapa funcione abrá añadir el codigo del mapa despues de la función */
+.primario-2 {
+  background-color: #e74c3c;
+}
+
+.secundario-2 {
+  background-color: #27ae60;
+}
+
+.terciario-2 {
+  background-color: #f39c12;
+}
+
+/* Información sobre la lista de colores */
+/* Información sobre los estilos de los botones */
+/*# sourceMappingURL=style.css.map */

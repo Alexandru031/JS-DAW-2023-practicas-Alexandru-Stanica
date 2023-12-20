@@ -1,10 +1,108 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    font-family: 'Ubuntu', sans-serif;
-}
+// Variables para colores
+$color-primario: #f39c12;
+$color-secundario: #27ae60;
+$color-terciario: #e74c3c;
+$color-black: #2e2e2e !default;
+
+// Lista de colores para botones
+$colores-btn: $color-primario, $color-secundario, $color-terciario;
+
+// Mapa de estilos para botones
+$estilos-btn: (
+  primario: $color-primario,
+  secundario: $color-secundario,
+  terciario: $color-terciario
+);
 
 body {
-    background-color: #1f1f1f;
-    color: white;
+    background-color: $color-black;
 }
+
+// Estilos base para botones
+.btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.8;
+    color: black;
+    font-size: 15px;
+  }
+}
+
+$colores-btn-2: red, blue, green, yellow;
+
+@each $color in $colores-btn-2 {
+  .btn:nth-child(#{index($colores-btn-2, $color)+1}) {
+    background-color: $color;
+    color: white;
+    width: calc(50% - 20px);
+    padding: 8px;
+    margin: 4px;
+
+    &:hover {
+        opacity: 0.8;
+        color: black;
+        font-size: 15px;
+    }
+  }
+}
+
+// Estilos específicos para cada botón usando variables locales
+.primario-1 {
+  background-color: $color-primario;
+}
+
+.secundario-1 {
+  background-color: $color-secundario;
+}
+
+.terciario-1 {
+  background-color: $color-terciario;
+}
+
+// Placeholder y extensión para elementos especiales
+%btn-especial {
+  font-weight: bold;
+  padding: 10px;
+  font-size: 50px;
+  color: white
+}
+
+// Aplicar extensión a un elemento específico
+h1 {
+  @extend %btn-especial;
+}
+
+// Función para obtener el color de los botones del mapa
+@function obtener-color-btn($btn) {
+  @return map-get($estilos-btn, $btn);
+}
+
+// Iteración sobre la lista de colores para asignarlos a los botones
+
+
+  /* Para que la funcion del mapa funcione abrá añadir el codigo del mapa despues de la función */
+  .primario-2 {
+    background-color: obtener-color-btn(terciario);
+  }
+
+  .secundario-2 {
+    background-color: obtener-color-btn(secundario);
+  }
+
+  .terciario-2 {
+    background-color: obtener-color-btn(primario);
+  }
+/* Información sobre la lista de colores */
+// Cantidad de colores: length($colores-btn);
+// Colores combinados: join($colores-btn, ', ');
+// Colores con uno más agregado: append($colores-btn, #3498db);
+
+/* Información sobre los estilos de los botones */
+// Color del botón primario: obtener-color-btn(primario);
+// Color del botón secundario: obtener-color-btn(secundario);
+// Color del botón terciario: obtener-color-btn(terciario);
