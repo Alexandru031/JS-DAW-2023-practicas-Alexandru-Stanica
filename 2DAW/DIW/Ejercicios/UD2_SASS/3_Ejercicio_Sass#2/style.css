@@ -1,17 +1,83 @@
-/* Error: Undefined variable.
- *    ,
- * 57 |         width: $ancho + 20vw;
- *    |                ^^^^^^
- *    '
- *   style.scss 57:16  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a    \2577 \a 57 \2502          width: $ancho + 20vw;\d\a    \2502                 ^^^^^^\a    \2575 \a   style.scss 57:16  root stylesheet";
+* {
+  box-sizing: border-box;
+  color: white;
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
 }
+
+body {
+  background-color: #303030;
+  height: 100vh;
+}
+
+#titulo {
+  text-align: center;
+  padding: 20px;
+}
+
+.botones {
+  margin: 20px 0;
+}
+
+button {
+  background-color: gray;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+button:hover {
+  opacity: 0.5;
+  transition: linear 200ms;
+}
+
+footer {
+  background-color: green;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  height: 100px;
+  width: 100vw;
+  position: absolute;
+}
+
+footer > div {
+  text-align: center;
+  width: 50%;
+}
+
+#div1 {
+  width: 25%;
+  background-color: red;
+}
+
+#div2 {
+  width: 50%;
+  background-color: red;
+}
+
+#div3 {
+  width: 75%;
+  background-color: red;
+}
+
+#div4 {
+  width: 100%;
+  background-color: red;
+}
+
+@media screen and (max-width: 1200px) {
+  footer {
+    background-color: #f9ec00;
+  }
+}
+@media screen and (max-width: 800px) {
+  footer {
+    background-color: orange;
+  }
+}
+@media screen and (max-width: 500px) {
+  footer {
+    background-color: red;
+  }
+}/*# sourceMappingURL=style.css.map */

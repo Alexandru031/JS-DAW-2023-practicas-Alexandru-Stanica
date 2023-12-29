@@ -50,11 +50,11 @@ footer > div {
 
 $count: 0;
 
-@while $count <= 4 {
-    body > div {
-        background-color: #ff0f0f;
-        height: 50vh;
-    }
+@for $i from 1 through 4 {
+    #div#{$i} {
+            width: $i * 25%;
+            background-color: red;
+        }
 }
 
 @media screen and (max-width: 1200px) {
