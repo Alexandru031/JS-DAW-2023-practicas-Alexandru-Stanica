@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-weight: 400;
+    font-size: 1rem;
+    width: 1400px;
+    margin: 0 auto;
+}
+$max-widths: 1400px;
+$default-margenes: 0;
+$centrar-margin: 0 auto;
+
+$font-familys: 'Nunito', sans-serif;
+
+$font-weights: (
+    "light": 300,
+    "regular": 400,
+    "bold": 700
+);
+
+$font-sizes: (
+    "cuerpo": 1rem,
+    "h3" : 150%,
+    "h2": 200%,
+    "h1": 300%,
+    "nav ul li": 110%,
+    "footer p": 80%
+);
+
+$cuerpo: (
+    "peso": ,
+    "tamano": 1rem
+);
+
+h {
+    &1 {
+        font: map-get($font-sizes: "bold") map-get($map: $font-sizes, quote(#{&}), $font-familys);
+    }
+    &2{
+        font: map-get($font-sizes: "bold") map-get($map: $font-sizes, quote(#{&}), $font-familys);
+    }
+    &3 {
+        font: map-get($font-sizes: "bold") map-get($map: $font-sizes, quote(#{&}), $font-familys);
+    }
+}
