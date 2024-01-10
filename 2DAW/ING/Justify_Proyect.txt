@@ -1,0 +1,12 @@
+My Ionic development project consist in create a mobile application for 
+rentals motorbike where they allow a user to use the vehicle temporarily.
+Those who own the vehicle, they will be able to put prices depending on 
+user needs of use. For example, a persona that need a motorbike in 1 month
+or 1 week. This person need driving license, DNI, it's over 21 years old,
+credit card and vehicle insurance to rent a motorbike.
+
+Most people need this application in case that they don't have a vehicle or
+the vehicle repairing or spoiled.
+
+Additionally, they are economical vehicles that they don't requiered much
+repair and maintenance to use.
