@@ -124,3 +124,9 @@ table, tr, td, th {
   border: 2px solid black;
   padding: 10px;
 }
+
+@media (max-width: 550px) {
+  button {
+    width: 25%;
+  }
+}
