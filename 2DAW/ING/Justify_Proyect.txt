@@ -1,3 +1,5 @@
+BikeLease
+
 My Ionic development project consist in create a mobile application for 
 rentals motorbike where they allow a user to use the vehicle temporarily.
 Those who own the vehicle, they will be able to put prices depending on 
@@ -10,3 +12,35 @@ the vehicle repairing or spoiled.
 
 Additionally, they are economical vehicles that they don't requiered much
 repair and maintenance to use.
+
+Porque reducimos la contaminación, muchos usuarios necesitan en desplazamiento urbano,
+es más economico el gasto de la gasolina y el coste de la reparación, menos
+complicaciones de estacionar y ahorras dinero, tiempo y esfuerzo para desplazarte.
+
+
+
+CORRECCION EN ESPAÑOL
+
+Debido a falta de desplazamiento urbano en transporte publico, muchisima gente crea la 
+necesidad de tener un vehiculo, que sea economico tanto en gasto de la gasolina, como 
+en mantenimiento del vehiculo, reduce la contaminación del planeta, ahorramos tiempo, 
+dinero y esfuerzo para desplazarnos. 
+
+Por lo tanto, hemos creado nuestra aplicación
+BikeLease que nos permite alquilar cualquier moto que nos encontremos cerca de nuestra
+zona de forma temporal, asegurando el ahorro de coste, tiempo y esfuerzo a corto plazo.
+
+
+TRADUCIR EN INGLES
+
+Due to the lack of urban mobility in public transportation, many people find it necessary 
+to own a vehicle that is economical both in terms of fuel consumption and maintenance. 
+This not only reduces environmental pollution but also saves time, money, and effort in 
+commuting.
+
+Therefore, we have created our BikeLease application, which enables us to temporarily rent
+any motorcycle we find near our area, ensuring short-term cost savings, time efficiency, 
+and reduced effort.
+
+
+Justificación de segunda parte: Metodologias utilizados y herraientas que usas para crear la aplicación.
