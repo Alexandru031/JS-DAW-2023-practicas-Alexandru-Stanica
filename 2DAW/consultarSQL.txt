@@ -1,0 +1,44 @@
+header("Content-Type: application/json");
+
+$conexion = new PDO('mysql:host=localhost;dbname=hotel', 'root', '');
+$seleccionar = $conexion->prepare('SELECT * FROM hoteles');
+$seleccionar->execute();
+
+$data = array();
+
+if ($_SERVER['REQUEST_METHOD'] == 'GET') {
+    while($row=$seleccionar->fetch(PDO::FETCH_ASSOC)){
+  
+        $data['Hoteles'][] = $row;
+    
+    }
+    echo json_encode($data);
+}
+
+
+
+/* 
+header("Content-Type: application/json");
+
+try {
+    $conexion = new PDO('mysql:host=localhost;dbname=hotel', 'root', '');
+    $conexion->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+} catch (PDOException $ex) {
+    die($ex->getMessage());
+}
+$query = "SELECT * FROM hoteles";
+
+$seleccionar = $conexion->prepare($query);
+$seleccionar->execute();
+
+$data = array();
+
+while($row=$seleccionar->fetch(PDO::FETCH_ASSOC)){
+  
+    $data['Hoteles'][] = $row;
+
+}
+
+echo json_encode($data);
+
+*/
