@@ -42,5 +42,13 @@ Therefore, we have created our BikeLease application, which enables us to tempor
 any motorcycle we find near our area, ensuring short-term cost savings, time efficiency, 
 and reduced effort.
 
+PART_2 Methodologies used and tools you use to create the application
 
-Justificación de segunda parte: Metodologias utilizados y herraientas que usas para crear la aplicación.
+La creación de nuestra aplicación no requiere tantos recurso para poder ser ejecutado. Por
+lo tanto, vamos a usar unas herramientas muy populares que está usando la gran mayoría de los
+programadores para crear aplicación web. Nuestra herramienta que vamos a utilizar será VSCode
+donde nos permite facilitar la creación de aplicación por su utilidad de extensiones. 
+
+Una vez tengamos nuestra herramienta, vamos utilizar algún lenguaje de programación que nos
+permite facilitar la creación, sea compatible tanto IOS y Android y además que tenga un buen
+rendimiento para ejecutar la aplicación.
