@@ -42,6 +42,8 @@ Therefore, we have created our BikeLease application, which enables us to tempor
 any motorcycle we find near our area, ensuring short-term cost savings, time efficiency, 
 and reduced effort.
 
+
+
 PART_2 Methodologies used and tools you use to create the application
 
 La creación de nuestra aplicación no requiere tantos recurso para poder ser ejecutado. Por
@@ -50,5 +52,37 @@ programadores para crear aplicación web. Nuestra herramienta que vamos a utiliz
 donde nos permite facilitar la creación de aplicación por su utilidad de extensiones. 
 
 Una vez tengamos nuestra herramienta, vamos utilizar algún lenguaje de programación que nos
-permite facilitar la creación, sea compatible tanto IOS y Android y además que tenga un buen
-rendimiento para ejecutar la aplicación.
+permite facilitar la creación, sea compatible tanto IOS y Android. Nosotros vamos a utilizar
+Ionic porque es un lenguaje de programación que nos facilita la creación y incluye sus estilos
+predefinidos para ahorrar codigo y tiempo.
+
+
+ENGLISH TRANSLATE
+
+Our application we don't require more resorces to execute. Therefore, we are going to use an tools
+very populars that is using to vast majority of the programmers but the create web application.
+Our tools that we are going to use will be VSCode where allow us to facilitate the creation of
+application for its usefulness of extensions.
+
+Once we have our tool, we are going to use some programming langguages that alow easy creation,
+it's compatible with both IOS and Android. We are goingo to use Ionic, because it is programming
+langguages that we makes it easier to creation and include your default styles but save code and
+time.
+
+
+CORRECTION ERRORS
+
+    1. "Our application we don't require more resorce to execute."
+        Corrección: "Our application doesn't require more resources to execute."
+
+    2. "Therefore, we are going to use an tools very populars that is using to vast majority of the programmers but the create web application."
+        Corrección: "Therefore, we are going to use popular tools that are used by the vast majority of programmers for creating web applications."
+
+    3. "Our tools that we are goingo to use will be VSCode where allow us to facilitate the creation of application for its usefulness of extensions."
+        Corrección: "The tools that we are going to use will include VSCode, which allows us to facilitate the creation of applications due to its useful extensions."
+
+    4. "Once we have our tool, we are going to use some programming langguages that aloww easy creation, it's compatible with both IOS and Android."
+        Corrección: "Once we have our tool, we are going to use some programming languages that allow easy creation; it's compatible with both iOS and Android."
+
+    5. "We are goingo to use Ionic, because it is programming langguages that we makes it easier to creation and include your default styles but save code and time."
+        Corrección: "We are going to use Ionic because it is a programming language that makes it easier to create and includes default styles, thus saving code and time."
