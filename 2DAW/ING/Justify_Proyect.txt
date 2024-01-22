@@ -57,7 +57,7 @@ Ionic porque es un lenguaje de programación que nos facilita la creación y inc
 predefinidos para ahorrar codigo y tiempo.
 
 
-ENGLISH TRANSLATE
+ENGLISH TRANSLATE - Escrito por mí
 
 Our application we don't require more resorces to execute. Therefore, we are going to use an tools
 very populars that is using to vast majority of the programmers but the create web application.
@@ -68,6 +68,17 @@ Once we have our tool, we are going to use some programming langguages that alow
 it's compatible with both IOS and Android. We are goingo to use Ionic, because it is programming
 langguages that we makes it easier to creation and include your default styles but save code and
 time.
+
+CORRECCIÓN COMPLETA
+
+Our application doesn't require many resources to execute. Therefore, we are going to utilize a very 
+popular tool that is used by the vast majority of programmers creating web applications. Our chosen 
+tool is VSCode, which allows us to facilitate the application creation process due to its useful 
+extensions.
+
+Once we have our tool, we are going to use programming languages that allow easy creation and are 
+compatible with both iOS and Android. We have decided to use Ionic because it is a programming 
+language that makes creation easier and includes default styles, saving code and time.
 
 
 CORRECTION ERRORS
@@ -86,3 +97,7 @@ CORRECTION ERRORS
 
     5. "We are goingo to use Ionic, because it is programming langguages that we makes it easier to creation and include your default styles but save code and time."
         Corrección: "We are going to use Ionic because it is a programming language that makes it easier to create and includes default styles, thus saving code and time."
+
+
+PART3. RESULTS (We can explain our results to application)
+Example: What good results do I get?

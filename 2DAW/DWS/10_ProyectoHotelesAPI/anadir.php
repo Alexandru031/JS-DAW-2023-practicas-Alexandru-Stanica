@@ -20,6 +20,5 @@
             <input type="button" name="volver" value="Volver a Home" onclick="location.href='home.php'">
         </div>
     </form>
-    <script src="volver.js"></script>
 </body>
 </html>
