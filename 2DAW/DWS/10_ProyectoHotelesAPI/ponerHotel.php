@@ -3,11 +3,11 @@ try {
   header("Content-Type: application/json; charset=UTF-8");
   $conexion = new PDO('mysql:host=localhost;dbname=hotel', 'root', '');
 
-  $nombre = $_GET['nombre'];
-  $categoria = $_GET['categoria'];
-  $habitantes = $_GET['habitantes'];
-  $poblacion = $_GET['poblacion'];
-  $direccion = $_GET['direccion'];
+  $nombre = $_POST['nombre'];
+  $categoria = $_POST['categoria'];
+  $habitantes = $_POST['habitantes'];
+  $poblacion = $_POST['poblacion'];
+  $direccion = $_POST['direccion'];
 
   $sql = "INSERT INTO hoteles (Nombre, Categoria, Habitantes, Poblacion, Direccion) VALUES (?, ?, ?, ?, ?)";
   $stmt = $conexion->prepare($sql);

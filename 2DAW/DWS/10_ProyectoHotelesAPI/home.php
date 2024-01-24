@@ -9,20 +9,20 @@
 </head>
 
 <body>
-    <form action="app.php" method="get">
-        <div>
+    <div class="opciones">
+        <div class="imagen">
             <img src="./img/hoteles.png" alt="Aplicacion PHP">
         </div>
-        <div>
-            <button type="submit" name="accion" value="ver">GET ALL</button>
-            <button type="submit" name="accion" value="verID">GET ID</button>
-            <button type="submit" name="accion" value="anadir">POST</button>
-            <button type="submit" name="accion" value="modificar">PUT</button>
-            <button type="submit" name="accion" value="eliminar">DELETE</button>
-            <button type="submit" name="accion" value="guardar">Restaurar Hoteles</button>
-            <button type="submit" name="accion" value="borrar">Borrar Hoteles</button>
+        <div class="enlaces">
+            <div class="enlace-1"><a href="./ver.php">GET ALL</a></div>
+            <div class="enlace-2"><a href="./verid.php">GET ID</a></div>
+            <div class="enlace-3"><a href="./anadir.php">POST</a></div>
+            <div class="enlace-4"><a href="./modificar.php">PUT</a></div>
+            <div class="enlace-5"><a href="./eliminar.php">DELETE</a></div>
+            <div class="enlace-6"><a href="./guardar.php">Restaurar Hoteles</a></div>
+            <div class="enlace-7"><a href="./borrarHoteles.php">Borrar Hoteles</a></div>
         </div>
-    </form>
+    </div>
 </body>
 
 </html>

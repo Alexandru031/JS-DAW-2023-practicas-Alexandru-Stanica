@@ -1,11 +1,60 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   background: rgb(0,255,141);
+  border: 2px solid black;
   background: linear-gradient(90deg, rgba(0,255,141,1) 0%, rgba(0,232,255,1) 50%, rgba(0,164,255,1) 100%);
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 99vw;
-  height: 90vh;
+  height: 100vh;
+  width: 100%;
+}
+
+div.opciones {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px 2px black;
+  border: 2px solid gray;
+  height: 50%;
+  width: 50%;
+}
+
+div.imagen {
+  padding: 20px;
+  height: 50%;
+  width: 100%;
+}
+
+div.enlaces {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 30%;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+div.enlaces > div {
+  background-color: #00ff80;
+  border-radius: 10px;
+  border: 3px solid gray;
+  font-size: 18px;
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  height: 12,5%;
+  width: 14,28%;
+}
+
+div.enlaces > div:hover {
+  border: 3px solid black;
+  font-size: 19px;
+  transition: all 0.5s ease;
 }
 
 form {
@@ -33,18 +82,9 @@ img {
   width: 100%;
 }
 
-button {
-  border-radius: 50px;
-  border: 3px solid gray;
-  font-size: 24px;
-  padding: 20px;
-}
-
-button:hover {
-  border: 3px solid black;
-  font-size: 24px;
-  padding: 20px;
-  transition: all 0.5s;
+a {
+  text-decoration: none;
+  color:black;
 }
 
 input[type="text"],
