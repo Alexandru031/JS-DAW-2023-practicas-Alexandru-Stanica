@@ -11,7 +11,9 @@ echo "La defensa es: " . $defensa . "<br>";
 echo "El portero es: " . $portero . "<br>"; 
 echo "El delantero es: " . $delantero . "<br>";
 echo "El centrocampista es: " . $centrocampista . "<br>";
-echo "El extremo es: " . $extremo . "<br>";
+echo "El extremo es: " . $extremo . "<br><br>";
+echo "<a href='salir.php' style='text-decoration:none;color:black;border:1px solid black; padding:10px;'>Cerrar Sesión</a>";
+echo "<a href='verEquipo.php' style='text-decoration:none;color:black;border:1px solid black; padding:10px;'>Ver Todos los Equipos</a>";
 
 include "conexion.php";
 
@@ -53,6 +55,7 @@ function getPuntoJugador($conect, $id, $jornada) {
     $db->bindValue(":id", $id, PDO::PARAM_INT);
     $db->bindValue(":jornada", $jornada, PDO::PARAM_INT);
     $db->execute();
+    $punto = 0;
     while($row = $db->fetch(PDO::FETCH_ASSOC)) {
         $punto = $row['puntos'];
     }

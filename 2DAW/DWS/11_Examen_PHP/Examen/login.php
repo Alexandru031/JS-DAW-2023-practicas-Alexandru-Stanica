@@ -1,9 +1,24 @@
 <?php 
 session_start();
 
-if ($_GET['nombre'] && $_GET['pass']) {
-    $_SESSION['nombre'] = $_GET['nombre'];
-    $_SESSION['pass'] = $_GET['pass'];
+include "conexion.php";
+
+if (isset($_GET['nombre'])  && isset($_GET['pass'])) {
+
+    $conectar = conectar();
+    $db = $conectar->prepare("SELECT * FROM usuario WHERE login = :login AND password = :pass");
+    $db->bindValue(":login", $_GET['nombre']);
+    $db->bindValue(":pass", $_GET['pass']);
+    $db->execute();
+    $stmt = $db->fetch(PDO::FETCH_ASSOC);
+
+    if ($stmt == 0) { // Comprueba si existe el registro que tenga la misma usuario y contraseña
+        $error = "El usuario o la contraseña son incorrectos";
+    } else {
+        $_SESSION['nombre'] = $_GET['nombre'];
+        $_SESSION['pass'] = $_GET['pass'];
+        header("Location: equipo.php");
+    }
 }
 
 ?>
@@ -28,11 +43,15 @@ if ($_GET['nombre'] && $_GET['pass']) {
                     <div>
                         <label for="nombre">Nombre: </label>
                         <input type="text" name="nombre" id="nombre">
+
                     </div>
                     <div>
                         <label for="pass">Contraseña: </label>
                         <input type="password" name="pass" id="pass">
                     </div>
+                    <?php 
+                    if (isset($error)) echo "<p style='color:red;'>" . $error . "</p>";
+                     ?>
                 </div>
                 <div class="botones">
                     <button type="submit">Acceder</button>
