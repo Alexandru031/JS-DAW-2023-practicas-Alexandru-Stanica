@@ -21,6 +21,36 @@ if (isset($_GET['nombre'])  && isset($_GET['pass'])) {
     }
 }
 
+/* 
+Para validar usuario y contraseña y que muestré la información de 
+forma independiente podemos hacer de la siguiente forma.
+
+Utilizamos la sentencia SQL para que coja el mismo nombre de usuario.
+Si no lo coge el usuario, entonces el usuario es incorrecto porque no
+existe, si existe sige con el siguiente paso.
+
+EL siguiente paso es coger la contraseña del registro y comprobar mediante
+"if" para ver si es la misma contraseña o no.
+*/
+
+
+/* 
+Otra forma de recorrer el array de la base de datos podemos usar
+la siguiente forma.
+Ejempo: $registros = $db->fetchAll(PDO::FETCH_ASSOC);
+
+Nos permite coger todos los registros de SQL y lo guarda en el array
+"$registros". Tambien está array puede utilizar como un booleano
+para comprobar si hay datos en el array o no.
+
+Para recorrerlo vamos a usar "foreach" para acceder a los datos
+de array.
+Ejemplo: 
+    foreach ($registros as $registro) {
+        echo "ID: " . $registro['id'] . "<br>";
+    }
+*/
+
 ?>
 
 <!DOCTYPE html>
@@ -54,8 +84,8 @@ if (isset($_GET['nombre'])  && isset($_GET['pass'])) {
                      ?>
                 </div>
                 <div class="botones">
-                    <button type="submit">Acceder</button>
-                    <button type="reset">Borrar</button>
+                    <button type="submit" class="boton">Acceder</button>
+                    <button type="reset" class="boton">Borrar</button>
                 </div>
             </div>
         </form>

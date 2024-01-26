@@ -50,6 +50,15 @@ function getIDJugador($conect, $jugador) {
     return $id;
 }
 
+/* 
+Para sumar los puntos de todos los jugadores tenemos que poner en SQL "SUM()".
+Ejemplo: SELECT SUM(puntos) FROM partido WHERE jugador = :id
+
+Una vez puesto esto, vamos a coger el valor de la suma total.
+Ejemplo: $sumaTotal = $row['SUM(puntos)']
+*/
+
+
 function getPuntoJugador($conect, $id, $jornada) {
     $db = $conect->prepare("SELECT puntos FROM partido WHERE jugador = :id AND jornada = :jornada");
     $db->bindValue(":id", $id, PDO::PARAM_INT);
@@ -65,3 +74,20 @@ function getPuntoJugador($conect, $id, $jornada) {
 function getPuntos($punto1, $punto2, $punto3, $punto4, $punto5){
     return $punto1 + $punto2 + $punto3 + $punto4 + $punto5;
 }
+
+/* 
+
+El metodo "htmlspecialchars" sirve para convertir lo en entidades HTML.
+Basicamente se transforma eso caracteres en sintaxis HTML.
+
+Ejemplo:
+// Supongamos que recibimos datos de un formulario
+$userInput = '<script>alert("¡Hola, soy un ataque XSS!");</script>';
+
+// Usamos htmlspecialchars para convertir caracteres especiales en entidades HTML
+$safeOutput = htmlspecialchars($userInput, ENT_QUOTES, 'UTF-8');
+
+// Ahora $safeOutput puede ser impreso en HTML de manera segura
+echo '<p>' . $safeOutput . '</p>';
+
+*/

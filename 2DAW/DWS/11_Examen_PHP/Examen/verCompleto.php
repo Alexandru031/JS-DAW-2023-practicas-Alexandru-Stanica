@@ -55,6 +55,16 @@ function getJugadorEquipo($conectar, $idJugador)
     }
 }
 
+/*
+Para dar valor a la sentencia SQL en WHERE ponemos "?".
+Ejemplo: jugador = ?
+
+Una vez puesto, modificamos el metodo "execute()".
+Ejemplo: $db->execute([$jugador])
+
+De está forma no hace falta poner bindParam o BindValue
+*/
+
 function getPartidoJugador($conectar, $idJugador) {
     $db4 = $conectar->prepare('SELECT * FROM partido WHERE jugador = :jugador');
     $db4->bindValue(':jugador', $idJugador);
