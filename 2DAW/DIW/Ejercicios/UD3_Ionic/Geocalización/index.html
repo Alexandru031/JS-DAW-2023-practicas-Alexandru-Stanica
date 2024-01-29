@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css"
+    />
+    <script src="cordova.js"></script>
+    <script src="places.js"></script>
+    <title>Places!</title>
+  </head>
+  <body onload="onLoad()">
+    <ion-app>
+      <ion-header>
+        <ion-toolbar color="primary">
+          <ion-title>Places!</ion-title>
+          <ion-buttons slot="primary">
+            <ion-button onclick="toggleReorder()">
+              <ion-icon slot="icon-only" name="list-outline"></ion-icon>
+            </ion-button>
+          </ion-buttons>
+        </ion-toolbar>
+      </ion-header>
+      <ion-content>
+        <ion-list lines="full">
+          <ion-item color="light">
+            <ion-input placeholder="Enter description"></ion-input>
+          </ion-item>
+          <ion-item color="light" id="file">
+            <input type="file" accept="image/*" onchange="addItem(event)" />
+            <ion-icon slot="end" name="camera" onclick="addItem()"></ion-icon>
+          </ion-item>
+          <ion-reorder-group disabled="false"> </ion-reorder-group>
+        </ion-list>
+      </ion-content>
+    </ion-app>
+  </body>
+</html>

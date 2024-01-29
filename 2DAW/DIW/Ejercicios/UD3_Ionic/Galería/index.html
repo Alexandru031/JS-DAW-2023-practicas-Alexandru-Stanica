@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/npm/@ionic/core@4.9.1/dist/ionic/ionic
+.esm.js"
+    ></script>
+    8.
+    <script
+      nomodule
+      src="https://cdn.jsdelivr.net/npm/@ionic/core@4.9.1/dist/ionic/ionic
+.js"
+    ></script>
+    9.
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@ionic/core@4.9.1/css/ionic.bundl
+e.css"
+    />
+    10. 11.
+    <script src="gallery.js"></script>
+    <title>Gallery</title>
+  </head>
+  <body onload="onLoad()">
+    <ion-app>
+      <ion-header>
+        <ion-toolbar>
+          <ion-title>Gallery!</ion-title>
+          <ion-buttons slot="primary">
+            <ion-button onclick="play()"
+              ><ion-icon slot="icon-only" name="play"></ion-icon
+            ></ion-button>
+            <ion-button onclick="pause()"
+              ><ion-icon slot="icon-only" name="pause"></ion-icon
+            ></ion-button>
+          </ion-buttons>
+        </ion-toolbar>
+        <ion-toolbar>
+          <ion-item>
+            <ion-range min="0" max="5000" value="4000">
+              <ion-icon slot="start" size="small" name="speedometer">
+              </ion-icon>
+              <ion-icon slot="end" name="speedometer"></ion-icon>
+            </ion-range>
+          </ion-item>
+        </ion-toolbar>
+      </ion-header>
+      <ion-content>
+        <ion-tabs>
+          <ion-tab tab="alicante">
+            <ion-slides id="alicante">
+              <ion-slide><img src="img/alicante/alicante1.jpg" /></ion-slide>
+              <ion-slide><img src="img/alicante/alicante2.jpg" /></ion-slide>
+              <ion-slide><img src="img/alicante/alicante3.jpg" /></ion-slide>
+            </ion-slides>
+          </ion-tab>
+          <ion-tab tab="madrid">
+            <ion-slides id="madrid">
+              <ion-slide><img src="img/madrid/madrid1.jpg" /></ion-slide>
+              <ion-slide><img src="img/madrid/madrid2.jpg" /></ion-slide>
+              <ion-slide><img src="img/madrid/madrid3.jpg" /></ion-slide>
+            </ion-slides>
+          </ion-tab>
+          <ion-tab tab="paris">
+            <ion-slides id="paris">
+              <ion-slide><img src="img/paris/paris1.jpg" /></ion-slide>
+              <ion-slide><img src="img/paris/paris2.jpg" /></ion-slide>
+              <ion-slide><img src="img/paris/paris3.jpg" /></ion-slide>
+            </ion-slides>
+          </ion-tab>
+          <ion-tab-bar slot="bottom">
+            <ion-tab-button tab="alicante">
+              <ion-icon name="walk"></ion-icon>
+              <ion-label>Alicante</ion-label>
+            </ion-tab-button>
+            <ion-tab-button tab="madrid">
+              <ion-icon name="train"></ion-icon>
+              <ion-label>Madrid</ion-label>
+            </ion-tab-button>
+            <ion-tab-button tab="paris">
+              <ion-icon name="airplane"></ion-icon>
+              <ion-label>París</ion-label>
+            </ion-tab-button>
+          </ion-tab-bar>
+        </ion-tabs>
+      </ion-content>
+    </ion-app>
+  </body>
+</html>

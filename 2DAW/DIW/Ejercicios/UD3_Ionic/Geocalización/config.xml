@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.fernandoruizrico.places"
+    versionCode = "1"
+    version     = "0.0.1" >
+
+  <name>Places!</name>
+
+  <description>
+      A simple application to save important places.
+  </description>
+
+  <author href="https://fernandoruizrico.com" email="fernando@iessanvicente.com">
+      Fernando Ruiz Rico
+  </author>
+
+  <access origin="*" />
+  <allow-navigation href="*" />
+  <allow-intent href="*" />
+
+  <plugin name="cordova-plugin-whitelist" />
+  <plugin name="cordova-plugin-splashscreen" />
+  <plugin name="cordova-plugin-vibration" />
+  <plugin name="cordova-plugin-geolocation" />
+  <plugin name="cordova-plugin-camera" />
+
+  <icon src="icon.png" />
+  <splash src="splash.png" />
+
+  <preference name="phonegap-version" value="cli-9.0.0" />
+
+</widget>
