@@ -1,4 +1,4 @@
-BikeLease
+Nombre de la aplicación: ZooBile, RideLoco, ZoomRide, [RideHop]
 
 My Ionic development project consist in create a mobile application for 
 rentals motorbike where they allow a user to use the vehicle temporarily.
@@ -13,10 +13,18 @@ the vehicle repairing or spoiled.
 Additionally, they are economical vehicles that they don't requiered much
 repair and maintenance to use.
 
+/* Añadir más información */
 Porque reducimos la contaminación, muchos usuarios necesitan en desplazamiento urbano,
 es más economico el gasto de la gasolina y el coste de la reparación, menos
 complicaciones de estacionar y ahorras dinero, tiempo y esfuerzo para desplazarte.
 
+
+PARTE DE PRESENTACIÓN
+A lo largo de nuestras vidas, siempre vamos a necesitar algún vehículo para ir al 
+trabajo, desplazarnos por la ciudad o ir de viaje para visitar otros continentes en 
+todo el país. Por lo tanto, pensando en las necesidades que pueda tener el cliente, 
+hemos desarrollado una aplicación móvil que permite alquilar nuestras motos y 
+compartirlas con aquellos que las necesiten.
 
 
 CORRECCION EN ESPAÑOL
@@ -101,3 +109,30 @@ CORRECTION ERRORS
 
 PART3. RESULTS (We can explain our results to application)
 Example: What good results do I get?
+
+Una vez teniendo todas las herramientas necesarias y sabemos que tipo de lenguajes vamos a 
+utilizar en nuestro desarrollo, vamos hablar acerca de nuestro resultados que hemos obtenido.
+
+Gracias al desarrollo de nuestra aplicación hemos podido indentificar las necesidades de cada 
+cliente, porque es importante que el cliente tenga muchisima facilidad en descubrir nuevos servicio
+y aplicaciones que les pueden facilitar la vida. Además, hemos obtenido muchisimo conocimiento acerca
+en desarrollar nuestra aplicación, porque cuanto más practicas un programa, más conocimientos 
+obtendrás y más facil será desarrollar futuros proyectos.
+
+
+English TRANSLATE
+
+Once we have all the necessary tools and know what kind of languages we are going to use in our 
+development, let's talk about the results we have obtained.
+
+Thanks to the development of our application, we have been able to identify the needs of each client. 
+It is important that the client has a lot of comfort in discovering new services and applications that 
+can make their life easier. In addition, we have gained a lot of knowledge about developing our 
+application because the more you practice a program, the more knowledge you will acquire, and it 
+will be facilitate to develop future projects.
+
+Improve this writing. For example: Your can comment about the posible problems that you can have during
+in development application.
+
+
+Part 4 - Conclusio
